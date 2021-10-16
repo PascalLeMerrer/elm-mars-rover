@@ -9,7 +9,7 @@ styles : Html.Styled.Html msg
 styles =
     global
         [ typeSelector "body"
-            [ backgroundImage (url "https://cdn.glitch.com/5e0e6389-c2da-4bfd-8866-f0405b6147b3%2FSand.jpg?v=1592913510684")
+            [ backgroundImage (url "https://raw.githubusercontent.com/PascalLeMerrer/elm-mars-rover/main/assets/sand.jpg")
             , backgroundRepeat repeat
             , margin (px 0)
             , padding (px 0)

@@ -2,7 +2,7 @@ module Main exposing (main)
 
 import Browser
 import Html
-import Html.Styled exposing (Html, div, img, text, toUnstyled)
+import Html.Styled exposing (Html, div, img, toUnstyled)
 import Html.Styled.Attributes exposing (class, src, style)
 import Stylesheet
 import Time exposing (Posix)
@@ -249,7 +249,7 @@ viewRover model =
             String.fromInt orientation
     in
     img
-        [ src "https://cdn.glitch.com/830a98ce-de36-423e-ac26-b4d5f23b5647%2Frover.png?v=1632642475927"
+        [ src "https://raw.githubusercontent.com/PascalLeMerrer/elm-mars-rover/main/assets/rover.png"
         , class "rover"
         , style "left" <| x ++ "px"
         , style "top" (y ++ "px")
